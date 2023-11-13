@@ -1,0 +1,129 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+nav{
+  height: 100px;
+  background-color: rgb(195, 215, 215);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+a{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.icon{
+  fill: rgb(255, 255, 255);
+  width: 20px;
+  height: 20px;
+}
+
+
+main{
+  width: 1820px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 30px;
+
+}
+
+.boxsheaderOne{
+  display: flex;
+  justify-content: center;
+  width: 1440px;
+}
+
+.boxsheaderTwo{
+  display: flex;
+  justify-content: center;
+  width: 1440px;
+}
+
+.headerText{
+  margin-bottom: 30px;
+  margin-top: 60px;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+}
+
+.imageWrapper{
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.imageWrapperTwo{
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+img{
+ height: 400px;
+}
+
+img:hover{
+  border-color: aliceblue;
+  border-style: solid;
+  opacity: 20%;
+  /* transition: all 0.5s ease-in; */
+}
+
+p {
+  text-align: center;
+}
+
+p:hover{
+  color: rgb(24, 148, 148);
+}
+
+
+
+.buttonDiv{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 200px;
+
+}
+
+.knappen {
+  background-color: rgb(247, 201, 17);
+  margin: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.knappen:hover{
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+}
+
+.buttonText{
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+footer{
+  height: 100px;
+  background-color: rgb(195, 215, 215);
+}
